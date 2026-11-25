@@ -3,7 +3,6 @@
   <head>
     <title>Your Giga Pet</title>
     <meta name="description" content="A cool thing made with Glitch">
-    <!-- <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon"> -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,6 +26,7 @@
         <div>Name: <strong><span class="name"></span></strong></div>
         <div>Weight: <strong><span class="weight"></span> pounds</strong></div>
         <div>Happiness: <strong><span class="happiness"></span> tail wags (per min)</strong></div>
+        <div>Mood: <strong><span class="mood"></span></strong></div>
         <div class="stats">Actions used: <strong><span class="actions-count">0</span></strong></div>
 
         <div class="button-container">
@@ -48,7 +48,18 @@
       </section>
     </main>
 
-    <!-- Your web-app is https, so your scripts need to be too -->
+    <!-- HW10 DevTools lab: buttons that trigger browser options -->
+    <section class="debug-lab">
+      <h2>DevTools Lab (HW10)</h2>
+      <div class="debug-container">
+        <button class="debug-404-button">Trigger 404</button>
+        <button class="debug-typeerror-button">Trigger TypeError</button>
+        <button class="debug-violation-button">Trigger Violation</button>
+        <button class="debug-logs-button">Re-run Console Logs</button>
+      </div>
+    </section>
+
+   
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"
             integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
             crossorigin="anonymous"></script>
